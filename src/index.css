@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Add this import to your CSS file or index.js */
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+.navbar a {
+    margin-right: 2rem;
+}
+.navbar a:last-child {
+    margin-right: 0;
+}
+
+.btn-contact {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bg-semi-transparent {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
